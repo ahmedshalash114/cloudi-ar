@@ -1,0 +1,13 @@
+<div class="dashboard-container container">
+  <div class="row">
+      <div class="col-md-6 col-lg-4 col-xl-3 mb-4" *ngFor="let tool of tools">
+          <div class="card shadow-sm text-center">
+              <div class="card-body" >
+                <img src="../../envato.jpeg"  alt="Envato">
+                  <h5 class="card-title font-weight-bold">{{ tool.name }}</h5>
+                  <button class="btn btn-primary" (click)="redirect()">{{ tool.buttonText }}</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

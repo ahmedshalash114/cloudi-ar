@@ -1,0 +1,64 @@
+.dashboard-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  margin-left: 250px; /* Adjust based on sidebar */
+}
+
+/* Improve Row Layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Enhanced Card Styling */
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+  background: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.card-img-top {
+  max-width: 80px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Button Improvements */
+.btn-primary {
+  background-color: #007bff;
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-size: 14px;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.sidebar {
+  width: 220px; /* Reduce width */
+  background-color: #fff;
+  padding: 15px;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container {
+  margin-left: 240px; /* Adjust for sidebar */
+  padding: 30px;
+}
